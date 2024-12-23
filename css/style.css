@@ -735,6 +735,8 @@ img.grayscale {
 	/* Chrome 19+& Safari 6+*/ -webkit-transition:all .6s ease;
 	/* Fade to color for Chrome and Safari */ -webkit-backface-visibility:hidden;
 	/* Fix for transition flickering */
+	max-height: 400px;
+	max-width: 100%;
 }
 img.grayscale:hover {
 	filter:none;
@@ -812,9 +814,9 @@ img.grayscale:hover {
 	transition:opacity 0.35s,transform 0.35s;
 	-moz-transition:opacity 0.35s,-moz-transform 0.35s;
 	-o-transition:opacity 0.35s,-o-transform 0.35s;
-	-webkit-transform:translate3d(-40px,0,0);
-	transform:translate3d(-40px,0,0);
-	-ms-transform:translate3d(-40px,0,0);
+	-webkit-transform:translate3d(20px,0,0);
+	transform:translate3d(20px,0,0);
+	-ms-transform:translate3d(20px,0,0);
 }
 .img:hover img {
 	-webkit-transform:translate3d(0,0,0);
