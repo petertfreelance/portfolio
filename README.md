@@ -1,5 +1,5 @@
-# JohnDoe
-A Responsive Free One Page Portfolio Website template
+# Peter Talavera
+A Responsive One Page Portfolio Website for myself
 
 
 
