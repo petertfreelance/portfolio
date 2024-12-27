@@ -103,6 +103,9 @@ html,button,input,select,textarea {
 body {
 	margin:0;
 	font-family: 'Open Sans',sans-serif;
+	box-sizing: border-box;
+	max-width: 100%;
+
 }
 /* ==========================================================================Links========================================================================== */
 a:focus {
@@ -1124,7 +1127,7 @@ ul.slides li {
 	}
 
 	.hero h1 {
-		font-size: 100px;
+		font-size: 50px;
 		line-height: 80px;
 		margin-top: 65px;
 }
